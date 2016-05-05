@@ -6,7 +6,7 @@ Official documentation [is located here](http://laravel.com/docs/homestead).
 
 ### Custom Instructions:
 
-1. Make sure you've installed virtualbox
+1. Make sure you've installed both Virtualbox and Vagrant
 2. On the command line (gitbash/terminal/etc.) run:
 ```
 vagrant box add laravel/homestead
