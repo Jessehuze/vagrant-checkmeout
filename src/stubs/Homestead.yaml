@@ -14,11 +14,13 @@ folders:
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
-      to: /home/vagrant/Code/laraveltripplanner/public
+    - map: api.checkmeout.dev
+      to: /home/vagrant/Code/checkmeout-lumen/Public
+    - map: checkmeout.dev
+      to: /home/vagrant/Code/checkmeout-frontend/
 
 databases:
-    - homestead
+    - checkmeout
 
 # blackfire:
 #     - id: foo
