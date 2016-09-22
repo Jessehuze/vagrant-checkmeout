@@ -37,6 +37,8 @@ ssh-keygen -t rsa -C "you@homestead"
   192.168.10.10 checkmeout.dev
   192.168.10.10 api.checkmeout.dev
   ```
+6. Create a folder called "Code" in your home directory (i.e. C:\Users\<username>)
+
 6. Once all of these steps have been completed, you can now start Vagrant.
   1. Inside the vagrant-checkmeout folder, run:
   ```
