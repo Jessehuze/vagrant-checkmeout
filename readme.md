@@ -32,6 +32,7 @@ ssh-keygen -t rsa -C "you@homestead"
   1. Windows: The file is usually in C:\Windows\System32\drivers\etc\hosts
   2. Mac/Linux: /etc/hosts
   3. For both, add the following line to that file:
+  
   ```
   192.168.10.10 checkmeout.dev
   192.168.10.10 api.checkmeout.dev
