@@ -16,7 +16,7 @@ vagrant box add laravel/homestead https://atlas.hashicorp.com/laravel/boxes/home
   * This is arbitrary. Doesn't really matter.
   * Here, run:
   ```
-  git clone https://github.com/Jessehuze/Orangestead.git
+  https://github.com/Jessehuze/vagrant-checkmeout.git
   ```
   * Then, inside the cloned folder there are two files: init.bat and init.sh
   ```
@@ -33,7 +33,8 @@ ssh-keygen -t rsa -C "you@homestead"
   2. Mac/Linux: /etc/hosts
   3. For both, add the following line to that file:
   ```
-  192.168.10.10 homestead.app
+  192.168.10.10 checkmeout.dev
+  192.168.10.10 api.checkmeout.dev
   ```
 6. Once all of these steps have been completed, you can now start Vagrant.
   1. Inside the Orangestead folder, run:
