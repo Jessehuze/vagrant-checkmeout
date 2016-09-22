@@ -38,9 +38,8 @@ ssh-keygen -t rsa -C "you@homestead"
   192.168.10.10 api.checkmeout.dev
   ```
 6. Once all of these steps have been completed, you can now start Vagrant.
-  1. Inside the Orangestead folder, run:
+  1. Inside the vagrant-checkmeout folder, run:
   ```
   vagrant up
   ```
-  2. Once this completes, you should be able to open your web browser and go to: http://homestead.app
-  3. What you see is the clone from the master @ https://github.com/Jessehuze/se-group8.git
+  2. Once this completes, you should be able to open your web browser and go to: http://checkmeout.dev
