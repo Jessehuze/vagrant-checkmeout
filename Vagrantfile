@@ -2,12 +2,12 @@ require 'json'
 require 'yaml'
 
 VAGRANTFILE_API_VERSION = "2"
-confDir = $confDir ||= File.expand_path("~/.homestead")
+confDir = $confDir ||= Dir.pwd
 
-homesteadYamlPath = confDir + "/Homestead.yaml"
-homesteadJsonPath = confDir + "/Homestead.json"
-afterScriptPath = confDir + "/after.sh"
-aliasesPath = confDir + "/aliases"
+homesteadYamlPath = confDir + "/src/stubs/Homestead.yaml"
+homesteadJsonPath = confDir + "/src/stubs/Homestead.json"
+afterScriptPath = confDir + "/src/stubs/after.sh"
+aliasesPath = confDir + "/src/stubs/aliases"
 
 require File.expand_path(File.dirname(__FILE__) + '/scripts/homestead.rb')
 
