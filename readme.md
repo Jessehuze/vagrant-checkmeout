@@ -6,7 +6,7 @@ Official documentation [is located here](http://laravel.com/docs/homestead).
 
 ### Custom Instructions:
 
-1. Make sure you've installed both Virtualbox and Vagrant
+1. Make sure you've installed both Virtualbox (5.0!!!) and Vagrant
 2. On the command line (gitbash/terminal/etc.) run:
 ```
 vagrant box add laravel/homestead
@@ -16,7 +16,7 @@ vagrant box add laravel/homestead https://atlas.hashicorp.com/laravel/boxes/home
   * This is arbitrary. Doesn't really matter.
   * Here, run:
   ```
-  git clone https://github.com/Jessehuze/Orangestead.git
+  https://github.com/Jessehuze/vagrant-checkmeout.git
   ```
   * Then, inside the cloned folder there are two files: init.bat and init.sh
   ```
@@ -32,13 +32,16 @@ ssh-keygen -t rsa -C "you@homestead"
   1. Windows: The file is usually in C:\Windows\System32\drivers\etc\hosts
   2. Mac/Linux: /etc/hosts
   3. For both, add the following line to that file:
+  
   ```
-  192.168.10.10 homestead.app
+  192.168.10.10 checkmeout.dev
+  192.168.10.10 api.checkmeout.dev
   ```
+6. Create a folder called "Code" in your home directory (i.e. C:\Users\<username>)
+
 6. Once all of these steps have been completed, you can now start Vagrant.
-  1. Inside the Orangestead folder, run:
+  1. Inside the vagrant-checkmeout folder, run:
   ```
   vagrant up
   ```
-  2. Once this completes, you should be able to open your web browser and go to: http://homestead.app
-  3. What you see is the clone from the master @ https://github.com/Jessehuze/se-group8.git
+  2. Once this completes, you should be able to open your web browser and go to: http://checkmeout.dev
