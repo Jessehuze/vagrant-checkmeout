@@ -14,10 +14,10 @@ folders:
       to: /home/vagrant/Code
 
 sites:
-    - map: checkmeout.dev
+    - map: checkmeout.us.to
       to: /home/vagrant/Code/checkmeout-frontend/
-    - map: api.checkmeout.dev
-      to: /home/vagrant/Code/checkmeout-lumen/Public
+    - map: api.checkmeout.us.to
+      to: /home/vagrant/Code/checkmeout-lumen/public
 
 databases:
     - checkmeout
