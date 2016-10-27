@@ -17,7 +17,7 @@ sites:
     - map: checkmeout.dev
       to: /home/vagrant/Code/checkmeout-frontend/
     - map: api.checkmeout.dev
-      to: /home/vagrant/Code/checkmeout-lumen/Public
+      to: /home/vagrant/Code/checkmeout-lumen/public
 
 databases:
     - checkmeout
